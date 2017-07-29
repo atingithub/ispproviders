@@ -1,0 +1,10 @@
+{
+	"name" : "BSNL",
+	"imageUrl" : "img/isps/bsnl.png",
+	"maxSpeed" : "100 mbps",
+	"contact" : "080-44444121",
+	"email" : "123@in.bsnl.com",
+	"minPlan" : "450/-",
+	"description" : "BSNL has a world class, multi-gigabit, multi-protocol, convergent IP infrastructure through National Internet Backbone, through which it is providing convergent services through the same backbone and broadband access network. The Broadband service is available on ADSL technology (on the same copper cable that is used for connecting telephone), on a countrywide basis.",
+	"rating" : "4"
+}

@@ -1,0 +1,72 @@
+<aside class="list-aside col-md-5">
+  		
+  			<div class="row aside-row-panel">
+	  			
+  				<div class="image-aside">
+  					<img ng-src="{{$ctrl.isp.details.imageUrl}}" alt="{{$ctrl.isp.name}}" class="img-responsive center-block">
+  				</div>
+					
+  				<div class="panel panel-default panel-top">
+					<div class="panel-heading panel-heading-content">{{$ctrl.isp.name}}</div>
+				  	<ul class="list-group list-group-panel">
+					    <li class="list-group-item">
+					    	<img src="img/wifi-25px.png" alt="logo" class="img-responsive">
+					    	<span><strong>&nbsp;&nbsp;Max. Speed. {{$ctrl.isp.maxSpeed}}</strong></span>
+					    </li>
+					    <li class="list-group-item">
+					    	<img src="img/phone-25px.png" alt="logo" class="img-responsive">
+					    	<span><strong>&nbsp;&nbsp;&nbsp;{{$ctrl.isp.contact}}</strong></span>
+					    </li>
+					    <li class="list-group-item">
+					    	<img src="img/email-25px.png" alt="logo" class="img-responsive">
+					    	<span><strong>{{$ctrl.isp.email}}</strong></span>
+					    </li>
+					    <li class="list-group-item">
+					    	<img src="img/money-25px.png" alt="logo" class="img-responsive">
+					    	<span><strong>&nbsp;&nbsp;&nbsp;Min. Plan. {{$ctrl.isp.minPlan}}</strong></span>
+					    </li>
+				  	</ul>
+				</div>
+					
+  			</div>
+  			
+  			<!-- Rating -->
+  			<div class="rating row">
+  					
+				<div class="rating-label">Rating : </div>
+  				<div class="rating-star">
+	  				<ul class="list-unstyled">
+		    			<li><span class="glyphicon glyphicon-star"></span></li>
+		    			<li><span class="glyphicon glyphicon-star"></span></li>
+		    			<li><span class="glyphicon glyphicon-star"></span></li>
+		    			<li><span class="glyphicon glyphicon-star"></span></li>
+		    			<li><span class="glyphicon glyphicon-star"></span></li>
+	    			</ul>
+    			</div>
+    			
+  			</div>
+				<!-- ends Rating -->
+  			
+  			<div class="aside-description row">
+	  			<div class="panel panel-default aside-panel">
+					<div class="panel-body">{{$ctrl.isp.description}}
+					</div>
+				</div>
+  			</div>
+  			
+  			<div class="row aside-row-button">
+					
+  				<button type="button" class="btn btn-default btn-lg buttonLink">
+ 						<span class="glyphicon glyphicon-link" aria-hidden="true"></span> Link
+					</button>
+					
+					<button type="button" class="btn btn-default btn-lg buttonShare">
+ 						<span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span> Share
+					</button>
+					
+					<button type="button" class="btn btn-default btn-lg buttonDownload">
+ 						<span class="glyphicon glyphicon-download" aria-hidden="true"></span> Download
+					</button>
+					
+  			</div>
+</aside>
