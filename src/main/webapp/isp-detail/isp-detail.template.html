@@ -3,7 +3,7 @@
   			<div class="row aside-row-panel">
 	  			
   				<div class="image-aside">
-  					<img ng-src="{{$ctrl.isp.details.imageUrl}}" alt="{{$ctrl.isp.name}}" class="img-responsive center-block">
+  					<img ng-src="{{$ctrl.isp.imageUrl}}" alt="{{$ctrl.isp.name}}" class="img-responsive center-block">
   				</div>
 					
   				<div class="panel panel-default panel-top">
@@ -31,17 +31,21 @@
   			</div>
   			
   			<!-- Rating -->
-  			<div class="rating row">
+  			<div class="rating row" ng-init="rating = 2">
   					
 				<div class="rating-label">Rating : </div>
+					
   				<div class="rating-star">
-	  				<ul class="list-unstyled">
+	  				<div star rating-value="rating" max="5"></div>
+						<!--
+						<ul class="list-unstyled">
 		    			<li><span class="glyphicon glyphicon-star"></span></li>
 		    			<li><span class="glyphicon glyphicon-star"></span></li>
 		    			<li><span class="glyphicon glyphicon-star"></span></li>
 		    			<li><span class="glyphicon glyphicon-star"></span></li>
 		    			<li><span class="glyphicon glyphicon-star"></span></li>
 	    			</ul>
+						-->
     			</div>
     			
   			</div>

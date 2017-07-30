@@ -3,5 +3,6 @@ angular.module('ispApp', [
 	'ngAnimate',
 	'core',
 	'ispDetail',
-  'ispList'
+  'ispList',
+	'ispHeader'
 ]);

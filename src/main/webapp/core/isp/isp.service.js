@@ -1,7 +1,7 @@
 angular.
   module('core.isp').
   factory('Isp', ['$resource',
-    function($resource) {
+		function($resource) {
       return $resource('isps/:ispId.json', {}, {
         query: {
           method: 'GET',
@@ -9,5 +9,5 @@ angular.
           isArray: true
         }
       });
-    }
+    }					
   ]);

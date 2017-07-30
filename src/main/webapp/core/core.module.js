@@ -1,1 +1,1 @@
-angular.module('core', ['core.isp']);
+angular.module('core', ['core.isp', 'core.data', 'core.rating']);
